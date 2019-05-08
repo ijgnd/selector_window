@@ -63,13 +63,24 @@ in the future.
 
 
 ##### Compatibility
-Tested on Windows 10 Pro (1809) with the following applications:
+Tested on Linux (L) and on Windows 10 Pro 1809 (W).
 
-- Anki 2.0/2.1
-- Supermemo 17
-- Word 2019
-- LibreOffice 6.1 
-- VSCode
+Working with the following applications:
+
+- Chrome 74, Firefox 66 with Office365 (W)
+- Evernote for Desktop (W) 
+- Anki 2.0/2.1 (W,L)
+- Supermemo 17 (W)
+- Word 2019 (W)
+- LibreOffice 6.1 (W,L)
+- VSCode (W,L)
+- Cmd, Powershell (W)
+
+Not working:
+
+- File Explorer (W)
+
+
 
 
 ##### user config
