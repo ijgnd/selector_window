@@ -29,9 +29,11 @@ AGPLv3
 
 
 ##### Authors, Copyright
-Copyright (c): 2019 ijgnd
-               2018 Rene Schallner
-               2016-2018 Arun Mahapatra (for details see top of tag_fuzzy_select_and_insert.py)
+Copyright (c): 
+
+- 2019 ijgnd
+- 2018 Rene Schallner
+- 2016-2018 Arun Mahapatra (for details see top of tag_fuzzy_select_and_insert.py)
                
 This script mostly combines python scripts and functions from
 different authors. 
@@ -53,7 +55,7 @@ position, see https://stackoverflow.com/questions/40074637/pyqt5-port-how-do-i-h
 
 
 ##### Extend / To Do
-- Taskbar Symbal, Tray Icon
+- Taskbar Symbol, Tray Icon
 - MacOS? pyqtkeybind which I need for the global hotkey does not work 
 on MacOS. PyAutoGUI plans to introduce 
 [Ability to set global hotkey on all platforms](https://pyautogui.readthedocs.io/en/latest/roadmap.html)
@@ -63,8 +65,7 @@ in the future.
 ##### Compatibility
 Tested on Windows 10 Pro (1809) with the following applications:
 
-- Anki 2.1
-- Anki 2.0
+- Anki 2.0/2.1
 - Supermemo 17
 - Word 2019
 - LibreOffice 6.1 
@@ -74,8 +75,8 @@ Tested on Windows 10 Pro (1809) with the following applications:
 ##### user config
 adjust the file `config.ini` as needed.
 
-- `TAGFILE`: if you use Windows make sure to use use "\\" where you 
-have "\" in your path names (like `C:\\Myfiles\\tags.txt`).
+- `TAGFILE`: if you use Windows make sure to use use `\\` where you 
+have `\` in your path names (like `C:\\Myfiles\\tags.txt`).
 - `GLOBAL_SHOW_HOTKEY`(default `Shift+Ctrl+A`):
 - `ASK_FOR_CONFIRMATION_FOR_NEW_TAGS`(default `True`):
 - `BACKUP_TAGLIST_BEFORE_ADDING_NEW_TAG_TO_THIS_FOLDER`: set to `False`
@@ -102,4 +103,3 @@ search terms are inverted
     - complicated - what benefits? RS must have had his reasons not to use it.
     - by default every typed letter has to occur in the typed order
 - non-python like fzf, ivy/helm
-- 
