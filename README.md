@@ -75,12 +75,13 @@ Working with the following applications:
 - LibreOffice 6.1 (W,L)
 - VSCode (W,L)
 - Cmd, Powershell (W)
+- Nautilus/Files (L)
+- Terminal (L)
+- emacs (L)
 
 Not working:
 
 - File Explorer (W)
-
-
 
 
 ##### user config
