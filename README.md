@@ -82,6 +82,9 @@ Working with the following applications:
 Not working:
 
 - File Explorer (W)
+    - F2/Rename doesn't work in alternative file managers either. Most of these use the Explorer File menu like explorer++, FreeCommanderXE, DirectoryOpus. Also doesn't work in others like fman, Dolphin (W,L), TotalCommander, OneCommander, fman, muCommander -  exception Nautilus/Files(L)
+    - It's the same with AHK snippet managers. So maybe not a limitation of just myscript/pyqutogui.
+    - Workaround Windows: Context Menue - Properties (Alt+Enter) 
 
 
 ##### user config
