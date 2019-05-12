@@ -8,8 +8,8 @@ the user selects is  inserted at the cursor with pyautogui
 the path of the TAGFILE and the BACKUP.
 - syntax for the default seach method: strings (separated by space) can
 be in any order, `!` to exclude a string, `"` to search for space (e.g.
-`the wind`), `_` to indicate that the line must start with this string(
-e.g. `_wind` wont match `some wind`.
+`"the wind"`), `_` to indicate that the line must start with this string(
+e.g. `_wind` won't match `some wind`.
 - Alpha Quality. Released in the hope of gettig useful feedback.
 Use this at your own risk. If you find bugs or have improvements
 please let me know.
